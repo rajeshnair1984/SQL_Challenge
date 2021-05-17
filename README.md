@@ -189,7 +189,7 @@ Inspect the CSVs and sketch out an ERD of the tables. Courtesy [http://www.quick
         from config import username, password, hostname, port, DB
         from sqlalchemy import create_engine
         employee_uri = f'postgresql://{username}:{password}@{hostname}:{port}/{DB}'
-        engine = create_engine(db_uri, echo=True) #echo = True to log every query our SQL   database executes to the terminal
+        engine = create_engine(employee_uri, echo=True) #echo = True to log every query our SQL   database executes to the terminal
         connection = engine.connect()
      ```
 
