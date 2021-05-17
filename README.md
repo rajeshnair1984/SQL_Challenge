@@ -237,5 +237,5 @@ your boss thanks you for your work. On your way out of the office, you hear the 
 
 Knew it was FAKE before I walked into your office.  
   
-**All the technical positions have less average salary compared to managerial positions**  
-**Senior Engineer position has less average salary than Engineer and Assistant Engineer. This is proof that this data is fake**
+**Technical positions have less average salary compared to non technical positions**  
+**Senior Engineers has less average salary than Engineers and Assistant Engineer.Proof that this data is FAKE**
