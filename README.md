@@ -23,14 +23,8 @@ Inspect the CSVs and sketch out an ERD of the tables. Courtesy [http://www.quick
 
 **Use [this schema](EmployeeSQL/Output/employeeschemas.sql) to create the tables**
 
-- Tables are created in the order below to handle foreign keys.
-  1. `departments`
-  1. `dept_emp`
-  1. `dept_manager`
-  1. `employees`
-  1. `salaries`
-  1. `titles`
-
+- Tables are created in the order to handle foreign keys.
+  
 - All tables have primary key. Some primary keys also serve as Foreign keys.
 
 - DATE conversion is required in the local Postgres to import the DATE format in CSV. During the data exploration, it is observed that DATE is in the format MDY, hence the local Postgres DB date has to be converted to match that. This can be reverted later once the data insertion is done.
